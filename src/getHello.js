@@ -1,3 +1,3 @@
-export function getHello() {
+export const getHello = () => {
   return 'Hello Webpack';
 }

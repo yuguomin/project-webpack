@@ -1,3 +1,3 @@
 import { getHello } from './getHello';
 
-document.write(getHello());
+console.log(getHello());
