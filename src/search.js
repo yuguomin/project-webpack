@@ -17,7 +17,7 @@ class Search extends React.Component {
   render() {
     return (
     <div className="search-text">
-      Search Text
+      Search Text1
       <img src={img} />
     </div>);
   }
