@@ -1,5 +1,6 @@
-# project-webpack
-用于不同环境下开发小型项目的webpack配置文件集合demo [![Build Status](https://travis-ci.org/yuguomin/project-webpack.svg?branch=master)](https://travis-ci.org/yuguomin/project-webpack)
+# project-webpack [![Build Status](https://travis-ci.org/yuguomin/project-webpack.svg?branch=master)](https://travis-ci.org/yuguomin/project-webpack)
+用于不同环境下开发小型项目的webpack配置文件集合demo 
+
 
 # 相关功能
 1. 构建源代码
@@ -34,3 +35,9 @@ npm run build
 利用持续集成减少一些重复的操作，并且减少项目发布风险，每一次代码提交都会触发测试用例，只有通过测试用例，代码才被允许加入到代码主干。
 
 技术选型：[Travis CI](https://travis-ci.org/)
+
+5. commit校验和changelog
+完善的构建工具包还可设置commitLint，规范代码commit记录，生成对应的commit记录。
+
+6. 版本维护
+遵守版本发布规范，指定不同阶段的发布版本号。
